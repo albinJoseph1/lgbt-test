@@ -78,6 +78,7 @@ def create_pr(branch_name, token):
     else:
         print(f"Failed to create pull request for {branch_name}: {response.status_code} - {response.content.decode()}")
 
+
 # Use GitHub token from environment variable
 github_token = os.getenv("GITHUB_TOKEN")
 
