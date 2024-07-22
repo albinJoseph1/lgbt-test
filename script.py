@@ -44,7 +44,7 @@ def process_company(company_name):
 
 # Function to check if branch exists
 def check_branch_exists(branch_name, token):
-    url = f"https://api.github.com/repos/albinJoseph1/lgbt-test/branches/{branch_name}"
+    url = f"https://github.com/albinJoseph1/lgbt-test/tree/{branch_name}"
     headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github.v3+json"
@@ -58,7 +58,7 @@ def create_pr(branch_name, token):
         print(f"Branch {branch_name} does not exist.")
         return
     
-    url = "https://api.github.com/repos/albinJoseph1/lgbt-test/pulls"
+    url = "https://github.com/albinJoseph1/lgbt-test/pulls"
     headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github.v3+json"
