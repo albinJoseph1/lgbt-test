@@ -3,7 +3,7 @@ import os
 import subprocess
 import requests
 
-project_dir = '/home/tnam/projects/lgbtjobs/script/lgbt-test'
+project_dir = '/home/yatnam/projects/lgbtjobs/script/lgbt-test'
 companies_dir = os.path.join(project_dir, 'Companies')
 main_branch = 'main'
 csv_file = os.path.join(project_dir, 'remove.csv')
