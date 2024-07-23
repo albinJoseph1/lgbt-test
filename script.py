@@ -65,7 +65,7 @@ def process_company(company_name):
     run_command(f"git pull origin {main_branch}")
 
 # Function to create PRs
-def create_pr(branch_name, token):
+def create_pr(branch_name, token, main_branch='main'):
     url = "https://api.github.com/repos/albinJoseph1/lgbt-test/pulls"
     headers = {
         "Authorization": f"token {token}",
@@ -80,7 +80,8 @@ def create_pr(branch_name, token):
     if response.status_code == 201:
         print(f"Pull request created for {branch_name}")
     else:
-        print(f"Failed to create pull request for {branch_name}: {response.content.decode()}")
+        print(f"Failed to create pull request for {branch_name}: {response.status_code} - {response.content.decode()}")
+
 
 # Read the CSV file and process each company in batches
 batch_size = 5  # Adjust batch size as needed
