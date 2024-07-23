@@ -3,10 +3,10 @@ import os
 import subprocess
 import requests
 
-project_dir = '/home/yatnam/projects/lgbtjobs/script/lgbt-test'
+project_dir = '.'
 companies_dir = os.path.join(project_dir, 'Companies')
 main_branch = 'main'
-csv_file = os.path.join(project_dir, 'remove.csv')
+csv_file = os.path.join(project_dir, 'Remove_final.csv')
 
 # Function to run shell commands
 def run_command(command, cwd=project_dir):
@@ -17,12 +17,12 @@ def run_command(command, cwd=project_dir):
 
 # Function to check if the branch exists
 def branch_exists(branch_name):
-    branches = run_command("git branch -a")
+    branches = run_command("git branch")
     return branch_name in branches
 
 # Function to create a branch, commit, and push
 def process_company(company_name):
-    branch_name = f"remove-agent-{company_name}"
+    branch_name = f"remove-{company_name}"
     
     # Check if the branch already exists
     if branch_exists(branch_name):
@@ -89,7 +89,7 @@ with open(csv_file, mode='r') as file:
     companies = [row[0].strip() for row in csv_reader]
 
 # Use your GitHub token from an environment variable
-github_token = ""  # Replace with your actual token
+github_token = "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"  # Replace with your actual token
 
 for i in range(0, len(companies), batch_size):
     batch = companies[i:i + batch_size]
