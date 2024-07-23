@@ -89,7 +89,7 @@ with open(csv_file, mode='r') as file:
     companies = [row[0].strip() for row in csv_reader]
 
 # Use your GitHub token from an environment variable
-github_token = "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"  # Replace with your actual token
+github_token = "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"  # Replace with your actual token
 
 for i in range(0, len(companies), batch_size):
     batch = companies[i:i + batch_size]
