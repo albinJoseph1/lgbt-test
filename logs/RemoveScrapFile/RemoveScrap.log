@@ -1,0 +1,158 @@
+2024-12-27 14:48:01,027 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-27 14:48:01,483 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-27 14:48:01,499 - INFO - Branch remove-agent-BakerMcKenzie already exists.
+2024-12-27 14:48:01,502 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-27 14:48:02,153 - DEBUG - https://api.github.com:443 "POST /repos/albinJoseph1/lgbt-test/pulls HTTP/1.1" 422 272
+2024-12-27 14:48:02,154 - ERROR - Failed to create pull request for remove-agent-BakerMcKenzie: 422 - {'message': 'Validation Failed', 'errors': [{'resource': 'PullRequest', 'code': 'custom', 'message': 'A pull request already exists for albinJoseph1:remove-agent-BakerMcKenzie.'}], 'documentation_url': 'https://docs.github.com/rest/pulls/pulls#create-a-pull-request', 'status': '422'}
+ Please verify if a pull request for this branch has already been created. 
+2024-12-30 15:38:33,127 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:38:34,603 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:38:52,003 - INFO - Branch remove-agent-Hillarys already exists. Checking out and updating.
+2024-12-30 15:39:00,852 - ERROR - Error running command: git pull origin remove-agent-Hillarys
+fatal: couldn't find remote ref remove-agent-Hillarys
+
+2024-12-30 15:39:32,868 - INFO - Successfully processed company Hillarys.
+2024-12-30 15:39:38,203 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:39:39,128 - DEBUG - https://api.github.com:443 "POST /repos/albinJoseph1/lgbt-test/pulls HTTP/1.1" 201 15844
+2024-12-30 15:39:41,268 - INFO - Pull request created for remove-agent-Hillarys.
+2024-12-30 15:40:21,469 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:40:21,932 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:40:25,762 - INFO - Branch remove-agent-Hillarys already exists. Checking out and updating.
+2024-12-30 15:40:49,621 - ERROR - Directory ./Companies/Hillarys does not exist. Please contact AWS Team
+2024-12-30 15:41:40,509 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:41:40,982 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:41:40,992 - ERROR - Company folder for Hillarys not found. Please contact the AWS team for assistance.
+2024-12-30 15:43:49,941 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:43:50,409 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:44:06,491 - ERROR - Company folder for Hillarys not found. Please contact the AWS team for assistance.
+2024-12-30 15:44:25,086 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:44:25,514 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:51:08,276 - ERROR - Company folder for Hillarys not found. Please contact the AWS team for assistance.
+2024-12-30 15:56:27,094 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:56:27,596 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:57:06,331 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:57:06,831 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:57:09,553 - INFO - Branch remove-agent-Maximus already exists. Checking out and updating.
+2024-12-30 15:57:12,401 - ERROR - Error running command: git pull origin remove-agent-Maximus
+fatal: couldn't find remote ref remove-agent-Maximus
+
+2024-12-30 15:57:18,435 - INFO - Successfully processed company Maximus.
+2024-12-30 15:57:18,438 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:57:19,644 - DEBUG - https://api.github.com:443 "POST /repos/albinJoseph1/lgbt-test/pulls HTTP/1.1" 201 15841
+2024-12-30 15:57:37,612 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 15:57:38,228 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 15:57:49,117 - INFO - Branch remove-agent-Maximus already exists. Checking out and updating.
+2024-12-30 16:00:25,568 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:00:26,043 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 16:04:37,041 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:04:37,513 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 16:05:37,208 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:05:37,717 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 16:05:54,630 - INFO - Branch remove-agent-Maximus already exists. Checking out and updating.
+2024-12-30 16:29:44,793 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:29:45,252 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 16:30:17,084 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:30:17,495 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 16:30:32,406 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 16:30:33,608 - ERROR - Error running command: git checkout remove-agent-BenefitCosmetics
+error: Your local changes to the following files would be overwritten by checkout:
+	Companies/BenefitCosmetics/Scrap.py
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+2024-12-30 16:30:38,971 - ERROR - Error running command: git pull origin remove-agent-BenefitCosmetics
+From github.com:albinJoseph1/lgbt-test
+ * branch            remove-agent-BenefitCosmetics -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	Companies/BenefitCosmetics/Scrap.py
+Please commit your changes or stash them before you merge.
+Aborting
+
+2024-12-30 16:31:28,998 - ERROR - Error running command: git pull origin main
+From github.com:albinJoseph1/lgbt-test
+ * branch            main       -> FETCH_HEAD
+   da8a478..e3f7cf9  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+
+2024-12-30 16:31:30,006 - INFO - Successfully processed company BenefitCosmetics.
+2024-12-30 16:31:34,334 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:31:34,904 - DEBUG - https://api.github.com:443 "POST /repos/albinJoseph1/lgbt-test/pulls HTTP/1.1" 422 255
+2024-12-30 16:31:51,415 - ERROR - Failed to create pull request for remove-agent-BenefitCosmetics: 422 - {'message': 'Validation Failed', 'errors': [{'resource': 'PullRequest', 'code': 'custom', 'message': 'No commits between main and remove-agent-BenefitCosmetics'}], 'documentation_url': 'https://docs.github.com/rest/pulls/pulls#create-a-pull-request', 'status': '422'}
+ Please verify if a pull request for this branch has already been created. 
+2024-12-30 16:41:03,987 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:41:04,517 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 16:41:16,346 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 16:41:43,018 - INFO - Successfully processed company BenefitCosmetics.
+2024-12-30 16:41:59,262 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 16:42:00,561 - DEBUG - https://api.github.com:443 "POST /repos/albinJoseph1/lgbt-test/pulls HTTP/1.1" 201 15867
+2024-12-30 16:42:06,654 - INFO - Pull request created for remove-agent-BenefitCosmetics.
+2024-12-30 17:38:51,823 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:38:52,262 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:39:00,705 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 17:40:54,083 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:40:54,552 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:41:01,871 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 17:41:34,127 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:41:34,553 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:41:34,563 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:41:44,464 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:41:44,910 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:41:44,930 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:41:59,471 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:41:59,945 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:41:59,953 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:42:08,735 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:42:09,171 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:42:25,072 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:44:59,652 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:45:00,103 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:45:00,111 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 17:45:03,019 - ERROR - Directory ./Companies/BenefitCosmetics does not exist. Please contact AWS Team
+2024-12-30 17:45:29,615 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:45:30,069 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:45:59,421 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 17:48:02,871 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:48:03,311 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:48:18,627 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:48:40,152 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:48:40,588 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:48:40,606 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:48:58,085 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:48:58,517 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:49:10,065 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:49:34,141 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:49:34,596 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:52:15,760 - ERROR - Company folder for Benefit Cosmetics not found. Please contact the AWS team for assistance.
+2024-12-30 17:52:34,991 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:52:35,568 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:52:56,751 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:52:57,185 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:53:29,729 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 17:53:59,913 - ERROR - Directory ./Companies/BenefitCosmetics does not exist. Please contact AWS Team
+2024-12-30 17:54:42,327 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:54:42,884 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 17:54:42,901 - INFO - Branch remove-agent-BenefitCosmetics already exists. Checking out and updating.
+2024-12-30 17:54:45,911 - ERROR - Directory ./Companies/BenefitCosmetics does not exist. Please contact AWS Team
+2024-12-30 17:56:28,344 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 17:56:28,823 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 18:01:51,747 - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2024-12-30 18:01:52,243 - DEBUG - https://api.github.com:443 "POST /app/installations/58506253/access_tokens HTTP/1.1" 201 217
+2024-12-30 18:02:19,584 - INFO - Branch remove-agent-EastSussexCollege already exists. Checking out and updating.
+2024-12-30 18:02:20,431 - ERROR - Error running command: git checkout remove-agent-EastSussexCollege
+error: Your local changes to the following files would be overwritten by checkout:
+	logs/RemoveScrapFile/RemoveScrap.log
+Please commit your changes or stash them before you switch branches.
+Aborting
+
