@@ -33,19 +33,6 @@ class Agent(ScrapAgent):
         )
         self.chrome.pageWait()
 
-    def nextPage(self):
-        hasNextDisabled = bool('disabled' in self.chrome.find_element_by_css_selector("a.jp-next").get_attribute('class'))
-        if hasNextDisabled:
-            return False
-        else:
-            next_button = self.chrome.find_element_by_css_selector(".jobs-nav a.jp-next")
-            next_button.click()
-            WebDriverWait(self.chrome, 20).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "#main-content"))
-            )
-            time.sleep(3)
-            return True
-
     # Scraper Function
     def loadJobs(self):
         self.loadScrapPage()
