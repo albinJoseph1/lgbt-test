@@ -60,14 +60,8 @@ class Agent(ScrapAgent):
                     title = job.find('title').text
                     self.job.setTitle(title)
 
-                    apply_link = job.find('link').text
-                    self.job.setLink(apply_link)
-
                     description = job.find('description').text
                     self.job.setDescription(description)
-
-                    self.job.setCompanyName(self.companyName)
-                    self.job.setOwnnerUsername(self.ownerUsername)
 
                     self.addToJobs()
 

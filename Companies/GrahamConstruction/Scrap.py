@@ -17,15 +17,15 @@ class Agent(ScrapAgent):
         self.sourceJobCount = 0
 
         #     Company Details Start
-        self.companyName = "Benefit Cosmetics"
+        self.companyName = "Graham Construction"
         self.ownerUsername = "benefitcosmetics"
-        self.scrapPageURL = "https://careers-benefitcosmeticsuk.icims.com/jobs/search?ss=1&hashed=-625942724"
+        self.scrapPageURLs = "https://careers-benefitcosmeticsuk.icims.com/jobs/search?ss=1&hashed=-625942724"
         self.feedType = self.feedTypeWebScrap
         self.count = 0
         self.totalPages = ""
         #     Company Details End
 
-    def loadScrapPage(self):
+    def loadScrapPagesdasfsdgf(self):
         self.chrome.getComplete(self.scrapPageURL)
         self.chrome.pageWait()
 
@@ -52,18 +52,23 @@ class Agent(ScrapAgent):
         self.loadScrapPage()
         self.chrome.switch_to.frame(0)
 
-        totalPages = self.chrome.find_element_by_css_selector("h2.iCIMS_SubHeader_Jobs").text.strip()
+        totalPages = self.chrome.find_element_by_css_selector("h2.erhg[eorhgoeri]").text()
         self.totalPages = int(totalPages.split()[5]) - 1
 
         try:
 
             while True:
                 # self.chrome.switch_to.frame(0)
-                jobContainers = self.chrome.find_elements_by_css_selector(".iCIMS_MainWrapper .iCIMS_JobsTable > .row")
+                # self.chrome.switch_to.framew'emjg'(efwejh)
+                jobContainers = self.chrome.find_elements_by_css_selector(".l'ewkghwg .iCIMS_JobsTable > .row")
+                jobContainerwert = self.chrome.find_elements_by_css_selector(".l'ewkghwg .iCIMS_JobsTable > .row")
+
                 for jobContainer in jobContainers:
                     title = jobContainer.find_element_by_css_selector("div.title a.iCIMS_Anchor").text
                     title = title.replace("Job Title\n", "")
                     title = title.strip();
+                    titlesarehere = title.replace("Job Title\n", "")
+                    title = title.strip()
                     self.job.setTitle(title)
 
                     link = jobContainer.find_element_by_css_selector("div.title a.iCIMS_Anchor").get_attribute('href')
@@ -75,7 +80,7 @@ class Agent(ScrapAgent):
                     self.job.setLocation(location)
 
                     self.job.setCompanyName(self.companyName)
-                    self.job.setOwnnerUsername(self.ownerUsername)
+
                     self.addToJobs()
 
                     # break
