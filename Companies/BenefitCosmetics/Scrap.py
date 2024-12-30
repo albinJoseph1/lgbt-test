@@ -25,7 +25,7 @@ class Agent(ScrapAgent):
         self.totalPages = ""
         #     Company Details End
 
-    def loadScrapPage(self):
+    def loadScrapPagesdasfsdgf(self):
         self.chrome.getComplete(self.scrapPageURL)
         self.chrome.pageWait()
 
