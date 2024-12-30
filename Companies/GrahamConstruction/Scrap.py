@@ -59,14 +59,12 @@ class Agent(ScrapAgent):
 
             while True:
                 # self.chrome.switch_to.frame(0)
-                # self.chrome.switch_to.framew'emjg'(efwejh)
                 jobContainers = self.chrome.find_elements_by_css_selector(".l'ewkghwg .iCIMS_JobsTable > .row")
-                jobContainerwert = self.chrome.find_elements_by_css_selector(".l'ewkghwg .iCIMS_JobsTable > .row")
 
                 for jobContainer in jobContainers:
                     title = jobContainer.find_element_by_css_selector("div.title a.iCIMS_Anchor").text
                     title = title.replace("Job Title\n", "")
-                    title = title.strip();
+                    title = title.strip()
                     self.job.setTitle(title)
 
                     link = jobContainer.find_element_by_css_selector("div.title a.iCIMS_Anchor").get_attribute('href')
