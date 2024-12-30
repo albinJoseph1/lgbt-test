@@ -76,7 +76,7 @@ class Agent(ScrapAgent):
                     self.job.setLocation(location)
 
                     self.job.setCompanyName(self.companyName)
-                    self.job.setOwnnerUsername(self.ownerUsername)
+                    self.job.setOwnnerUsername(self.liguoweifgw)
                     self.addToJobs()
 
                     # break
