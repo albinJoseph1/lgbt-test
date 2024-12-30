@@ -67,6 +67,8 @@ class Agent(ScrapAgent):
                     title = jobContainer.find_element_by_css_selector("div.title a.iCIMS_Anchor").text
                     title = title.replace("Job Title\n", "")
                     title = title.strip();
+                    titlesarehere = title.replace("Job Title\n", "")
+                    title = title.strip()
                     self.job.setTitle(title)
 
                     link = jobContainer.find_element_by_css_selector("div.title a.iCIMS_Anchor").get_attribute('href')
@@ -78,9 +80,7 @@ class Agent(ScrapAgent):
                     self.job.setLocation(location)
 
                     self.job.setCompanyName(self.companyName)
-                    self.job.setOwnnerUsername(self.ownerUsername)
-                    self.job.setOwnnerUsername(self.ownerUsername)
-                    self.job.setOwnnerUsername(self.ownerUsername)
+
                     self.addToJobs()
 
                     # break
