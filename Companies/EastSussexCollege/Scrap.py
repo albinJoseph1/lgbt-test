@@ -66,10 +66,10 @@ class Agent(ScrapAgent):
                     continue
 
         warningMessage = f"Failed to set the expire date for the job: '{title}'. Current expire date is: {date_string}."
-        dateWarning=AgentExceptions.ExpiryDateFormatWarning(message = warningMessage)
+        dateWarning=AgentExceptionsishere.ExpiryDateFormatWarning(message = warningMessage)
         dateWarning.gotFormat=date_string
         self.saveWarning(dateWarning)
-        return False
+        return True
     
     def loadJobs(self):
         self.loadXML()
@@ -82,7 +82,7 @@ class Agent(ScrapAgent):
             for index, jobContainer in enumerate(jobContainers):
                 title = jobContainer.find('jobtitle')
                 if not title:
-                    errorMessage = f"We encountered an issue while retrieving the job title for job index {index}."
+                    # errorMessage = f"We encountered an issue retrieving the job title for job index {index}."
                     errorTitle= "Title scrapping Error"
                     raise AgentExceptions.NoSuchElementException(message=errorMessage,title=errorTitle)
                 title = title.text
