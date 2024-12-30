@@ -25,28 +25,6 @@ class Agent(ScrapAgent):
         self.totalPages = ""
         #     Company Details End
 
-    def loadScrapPage(self):
-        self.chrome.getComplete(self.scrapPageURL)
-        self.chrome.pageWait()
-
-        WebDriverWait(self.chrome, 50).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "#main-content"))
-        )
-
-
-    def nextPage(self):
-
-        if int(self.count) == int(self.totalPages):
-            return False
-        else:
-            self.count = self.count + 1
-            self.scrapPageURL = "https://careers-benefitcosmeticsuk.icims.com/jobs/search?pr=" + str(self.count)
-            self.loadScrapPage()
-            self.chrome.switch_to.frame(0)
-            return True
-
-
-
     # Scraper Function
     def loadJobs(self):
         self.loadScrapPage()
